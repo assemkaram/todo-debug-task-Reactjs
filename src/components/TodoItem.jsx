@@ -22,4 +22,8 @@ const TodoItem = ({ task }) => {
   );
 };
 export default TodoItem;
+<<<<<<< HEAD
 ```</BrowserRouter>
+=======
+// ```</BrowserRouter>```
+>>>>>>> master

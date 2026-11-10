@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+import { useNavigate } from "react-router-dom";
+
+>>>>>>> master
 const AddTodo = () => {
   const navigate = useNavigate();
   return (

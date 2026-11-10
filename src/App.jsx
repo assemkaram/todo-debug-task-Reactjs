@@ -11,9 +11,14 @@ function App() {
       <main className="flex-grow-1 p-4 bg-light">
         <Routes>
           <Route path="/" element={<Home />} />
+<<<<<<< HEAD
           <Route path="/todos" element={TodoList}>
             <Route path="add" element={<AddTodo />} />
           </Route>
+=======
+          <Route path="/todos" element={<TodoList/>} />
+          <Route path="/todos/add" element={<AddTodo />} />
+>>>>>>> master
         </Routes>
       </main>
     </div>

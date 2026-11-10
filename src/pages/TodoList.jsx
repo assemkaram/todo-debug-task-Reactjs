@@ -18,7 +18,11 @@ const TodoList = () => {
       <div className="row">
         <div className="col-md-7">
           <div className="list-group shadow-sm border-0">
+<<<<<<< HEAD
             {tasks.map((t) => (
+=======
+            {myTasks.map((t) => (
+>>>>>>> master
               <TodoItem task={t} />
             ))}
           </div>
